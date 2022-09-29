@@ -1,0 +1,18 @@
+.navigation__list{
+    display: flex;
+    gap:20px 50px;
+}
+.navigation__list_column_mob{
+    flex-direction: column;
+}
+@media(min-width:768px){
+    .navigation__list{
+        flex-direction: row;
+    }
+}
+
+@media(min-width:1024px){
+       .navigation__list{
+        gap: 84px;
+    }
+}
